@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default axios.create({
 
-    baseURL: "http://localhost:6006",
+    baseURL: "https://work2-59om.onrender.com",
 
     withCredentials: true
 
