@@ -34,7 +34,7 @@ function Announcements() {
 
         if (!auth?.accessToken) return;
 
-        const newSocket = io("http://localhost:6006", {
+        const newSocket = io("https://work2-59om.onrender.com", {
             auth: {
                 token: auth.accessToken
             }
