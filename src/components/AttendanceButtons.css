@@ -1,0 +1,59 @@
+.attendance-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.checkin-btn,
+.checkout-btn {
+    width: 300px;
+    max-width: 100%;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.checkin-btn {
+    background: #22c55e;
+}
+
+.checkin-btn:hover:not(:disabled) {
+    background: #16a34a;
+    transform: translateY(-2px);
+}
+
+.checkout-btn {
+    background: #2563eb;
+}
+
+.checkout-btn:hover:not(:disabled) {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.checkin-btn:disabled,
+.checkout-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .attendance-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .checkin-btn,
+    .checkout-btn {
+        width: 100%;
+    }
+}

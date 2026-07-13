@@ -1,0 +1,62 @@
+.dashboard-card {
+    background: #ffffff;
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.dashboard-card h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+.attendance-table thead tr {
+    background: #2563eb;
+}
+
+.attendance-table th {
+    color: #ffffff;
+    padding: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.attendance-table td {
+    padding: 14px;
+    text-align: center;
+    color: #374151;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.attendance-table tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+.attendance-table tbody tr:hover {
+    background: #eff6ff;
+    transition: 0.2s ease;
+}
+
+@media (max-width: 768px) {
+    .dashboard-card {
+        padding: 16px;
+    }
+
+    .attendance-table {
+        min-width: 600px;
+    }
+
+    .dashboard-card h2 {
+        font-size: 18px;
+    }
+}

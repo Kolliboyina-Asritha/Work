@@ -1,0 +1,137 @@
+.leave-table-container{
+
+    margin-top:25px;
+
+    background:#fff;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    overflow-x:auto;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.leave-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.leave-table th{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:12px;
+
+    text-align:left;
+
+}
+
+.leave-table td{
+
+    padding:12px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.leave-table tr:hover{
+
+    background:#f8fafc;
+
+}
+
+.status{
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.status.pending{
+
+    background:#fff3cd;
+
+    color:#856404;
+
+}
+
+.status.approved{
+
+    background:#d1fae5;
+
+    color:#065f46;
+
+}
+
+.status.rejected{
+
+    background:#fee2e2;
+
+    color:#991b1b;
+
+}
+
+.action-buttons{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.approve-btn{
+
+    background:#16a34a;
+
+    color:#fff;
+
+    border:none;
+
+    padding:6px 12px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.reject-btn{
+
+    background:#dc2626;
+
+    color:#fff;
+
+    border:none;
+
+    padding:6px 12px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.approve-btn:hover{
+
+    background:#15803d;
+
+}
+
+.reject-btn:hover{
+
+    background:#b91c1c;
+
+}

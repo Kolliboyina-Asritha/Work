@@ -1,0 +1,63 @@
+.communication-page {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: calc(100vh - 80px);
+
+    padding: 25px;
+
+    gap: 20px;
+
+    background: #f8fafc;
+
+    box-sizing: border-box;
+
+}
+
+
+.communication-page h2 {
+
+    margin: 0;
+
+    font-size: 26px;
+
+    font-weight: 600;
+
+    color: #111827;
+
+}
+
+
+/* Main chat area */
+
+.communication-page > div {
+
+    background: white;
+
+    border-radius: 12px;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .communication-page{
+
+        padding:15px;
+
+        height:auto;
+
+    }
+
+
+    .communication-page h2{
+
+        font-size:22px;
+
+    }
+
+}

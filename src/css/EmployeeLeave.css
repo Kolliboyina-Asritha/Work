@@ -1,0 +1,192 @@
+/* EmployeeLeave.css */
+
+.leave-page {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.leave-header {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.apply-leave-btn {
+
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+
+}
+
+.apply-leave-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+.leave-table-container {
+
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow-x: auto;
+
+}
+
+.leave-table {
+
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+
+}
+
+.leave-table thead {
+
+    background: #2563eb;
+    color: #fff;
+
+}
+
+.leave-table th {
+
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.leave-table td {
+
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+
+}
+
+.leave-table tbody tr:hover {
+
+    background: #f8fafc;
+
+}
+
+.leave-status {
+
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.leave-status.pending {
+
+    background: #fff7cc;
+    color: #b45309;
+
+}
+
+.leave-status.approved {
+
+    background: #dcfce7;
+    color: #166534;
+
+}
+
+.leave-status.rejected {
+
+    background: #fee2e2;
+    color: #b91c1c;
+
+}
+
+.leave-actions {
+
+    display: flex;
+    gap: 8px;
+
+}
+
+.approve-btn {
+
+    background: #16a34a;
+    color: #fff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.approve-btn:hover {
+
+    background: #15803d;
+
+}
+
+.reject-btn {
+
+    background: #dc2626;
+    color: #fff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.reject-btn:hover {
+
+    background: #b91c1c;
+
+}
+
+.no-data {
+
+    text-align: center;
+    padding: 40px;
+    color: #6b7280;
+    font-size: 16px;
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .leave-header {
+
+        justify-content: center;
+
+    }
+
+    .apply-leave-btn {
+
+        width: 100%;
+
+    }
+
+    .leave-table {
+
+        min-width: 700px;
+
+    }
+
+}

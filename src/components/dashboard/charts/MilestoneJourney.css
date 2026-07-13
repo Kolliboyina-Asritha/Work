@@ -1,0 +1,33 @@
+.milestone-wrapper {
+    margin-top: 30px;
+}
+
+.milestone-wrapper h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.milestone-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.milestone-card {
+    background: #fffffff6;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.milestone-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2563eb;
+}

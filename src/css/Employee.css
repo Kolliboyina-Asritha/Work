@@ -1,0 +1,48 @@
+.employees-page {
+    padding: 25px;
+}
+
+.employees-toolbar {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: 1px solid #d1d5db;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 320px;
+}
+
+.employee-search input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.create-employee-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.create-employee-btn:hover {
+    background: #1d4ed8;
+}

@@ -1,0 +1,73 @@
+.leave-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:24px;
+
+}
+
+.leave-header h1{
+
+    margin:0;
+
+    font-size:30px;
+
+    color:#fff;
+
+}
+
+.leave-header p{
+
+    margin-top:6px;
+
+    color:#fff;
+
+    font-size:15px;
+
+}
+
+.apply-leave-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.apply-leave-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.apply-leave-btn svg{
+
+    font-size:14px;
+
+}

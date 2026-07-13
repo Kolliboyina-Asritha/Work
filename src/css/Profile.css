@@ -1,0 +1,29 @@
+.profile-page{
+
+    padding:25px;
+
+}
+
+.profile-page-title{
+
+    margin-bottom:25px;
+
+    color:#fff;
+
+}
+
+.profile-loading{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:300px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+}

@@ -1,0 +1,209 @@
+.project-card{
+
+    background:#fffffff6;
+
+    border-radius:16px;
+
+    padding:22px;
+
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 10px 28px rgba(0,0,0,.15);
+
+}
+
+.project-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+}
+
+.project-header h3{
+
+    font-size:22px;
+
+}
+
+.status{
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+.planning{
+
+    background:#f59e0b;
+
+}
+
+.progress{
+
+    background:#2563eb;
+
+}
+
+.review{
+
+    background:#9333ea;
+
+}
+
+.completed{
+
+    background:#16a34a;
+
+}
+
+.description{
+
+    color:#666;
+
+    margin-bottom:20px;
+
+    min-height:45px;
+
+}
+
+.progress-section{
+
+    margin-bottom:20px;
+
+}
+
+.progress-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.progress-bar{
+
+    width:100%;
+
+    height:10px;
+
+    background:#e5e7eb;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    height:100%;
+
+    background:#2563eb;
+
+    transition:width .6s ease;
+
+}
+
+.project-details{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+    margin:20px 0;
+
+}
+
+.label{
+
+    font-size:12px;
+
+    color:#888;
+
+}
+
+.project-details p{
+
+    margin-top:5px;
+
+    font-weight:600;
+
+}
+
+.project-actions{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:20px;
+
+}
+
+.details-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.status-btn{
+
+    background:#f59e0b;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.details-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.status-btn:hover{
+
+    background:#d97706;
+
+}

@@ -1,0 +1,73 @@
+.superadmin-profile{
+
+    background:#0f172a;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+    margin-bottom:25px;
+
+}
+
+.superadmin-profile h3{
+
+    margin-bottom:20px;
+
+    color:#fff;
+
+}
+
+.superadmin-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.admin-card{
+
+    background:#f8fafc;
+
+    border-top:5px solid #1d4ed8;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.admin-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.admin-card h2{
+
+    margin:0;
+
+    font-size:36px;
+
+    color:#1d4ed8;
+
+}
+
+.admin-card p{
+
+    margin-top:10px;
+
+    color:#666;
+
+    font-weight:600;
+
+}

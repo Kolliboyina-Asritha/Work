@@ -1,0 +1,239 @@
+.announcement-card-container {
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:22px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+
+    border-left:6px solid #2563eb;
+
+    transition:all .3s ease;
+
+}
+
+
+.announcement-card-container:hover {
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+
+}
+
+
+/* Header */
+
+.announcement-card-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+}
+
+
+.announcement-card-header h3 {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:0;
+
+    font-size:20px;
+
+    color:#1f2937;
+
+}
+
+
+/* Priority */
+
+.announcement-priority-badge {
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    color:white;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+
+.announcement-priority-badge.low {
+
+    background:#16a34a;
+
+}
+
+
+.announcement-priority-badge.medium {
+
+    background:#eab308;
+
+    color:#111827;
+
+}
+
+
+.announcement-priority-badge.high {
+
+    background:#ea580c;
+
+}
+
+
+.announcement-priority-badge.urgent {
+
+    background:#dc2626;
+
+}
+
+
+/* Pin */
+
+.announcement-pin-icon {
+
+    color:#2563eb;
+
+}
+
+
+/* Image */
+
+.announcement-card-image {
+
+    width:100%;
+
+    max-height:280px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    margin:18px 0;
+
+}
+
+
+/* Description */
+
+.announcement-card-description {
+
+    color:#4b5563;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+
+/* Footer */
+
+.announcement-card-footer {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    color:#6b7280;
+
+    font-size:14px;
+
+    margin-bottom:18px;
+
+}
+
+
+/* Actions */
+
+.announcement-card-actions {
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+
+.announcement-edit-btn,
+.announcement-delete-btn {
+
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:9px 16px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    font-weight:600;
+
+}
+
+
+.announcement-edit-btn {
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+
+.announcement-delete-btn {
+
+    background:#dc2626;
+
+    color:white;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+
+    .announcement-card-header,
+
+    .announcement-card-footer {
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+
+    .announcement-card-actions {
+
+        width:100%;
+
+    }
+
+
+}

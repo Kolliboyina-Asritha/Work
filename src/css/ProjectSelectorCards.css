@@ -1,0 +1,132 @@
+.project-selector-card{
+    background:#ffffff;
+    border:2px solid #e5e7eb;
+    border-radius:16px;
+
+    padding:18px;
+    margin-bottom:16px;
+
+    cursor:pointer;
+
+    transition:all .25s ease;
+
+    box-shadow:0 6px 16px rgba(0,0,0,.08);
+}
+
+.project-selector-card:hover{
+    transform:translateY(-3px);
+    border-color:#2563eb;
+    box-shadow:0 12px 24px rgba(0,0,0,.12);
+}
+
+.project-selector-card.selected{
+    border-color:#2563eb;
+    background:#eff6ff;
+}
+
+/* =========================
+   Header
+========================= */
+
+.project-card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:18px;
+}
+
+.project-card-top h3{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+    color:#111827;
+    line-height:1.4;
+}
+
+.project-status{
+    padding:6px 12px;
+    border-radius:20px;
+
+    background:#2563eb;
+    color:white;
+
+    font-size:12px;
+    font-weight:600;
+
+    white-space:nowrap;
+}
+
+/* Different Status Colors */
+
+.project-status:has-text("Planning"){
+    background:#f59e0b;
+}
+
+.project-status:has-text("Completed"){
+    background:#16a34a;
+}
+
+.project-status:has-text("Under HR Review"){
+    background:#9333ea;
+}
+
+/* =========================
+   Team Lead
+========================= */
+
+.project-teamlead{
+    margin-bottom:18px;
+}
+
+.project-teamlead small{
+    display:block;
+    color:#94a3b8;
+    font-size:12px;
+    margin-bottom:4px;
+}
+
+.project-teamlead p{
+    margin:0;
+    color:#111827;
+    font-size:15px;
+    font-weight:600;
+}
+
+/* =========================
+   Progress
+========================= */
+
+.project-progress{
+    margin-top:10px;
+}
+
+.progress-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:8px;
+
+    font-size:14px;
+    font-weight:600;
+    color:#475569;
+}
+
+.progress-bar{
+    width:100%;
+    height:8px;
+
+    background:#e5e7eb;
+
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    background:#2563eb;
+    border-radius:20px;
+
+    transition:width .4s ease;
+}

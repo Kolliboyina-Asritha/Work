@@ -1,0 +1,25 @@
+.performance-filter{
+
+    display:flex;
+
+    gap:15px;
+
+    margin:20px 0;
+
+    flex-wrap:wrap;
+
+}
+
+.performance-filter input,
+
+.performance-filter select{
+
+    padding:10px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    min-width:180px;
+
+}

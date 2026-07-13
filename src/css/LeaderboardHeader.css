@@ -1,0 +1,36 @@
+.leaderboard-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:30px;
+}
+
+.leaderboard-header h2{
+color: #ffffffee;
+    margin:0;
+}
+
+.leaderboard-header p{
+
+    color:#ece7e7;
+    margin-top:6px;
+}
+
+.leaderboard-filters{
+
+    display:flex;
+    gap:15px;
+}
+
+.leaderboard-filters select{
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    border:1px solid #ddd;
+
+    font-size:15px;
+}
